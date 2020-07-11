@@ -345,6 +345,10 @@ h3,
 
 #form_toggle:checked ~ form {
     display: block;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .form_toggle {
